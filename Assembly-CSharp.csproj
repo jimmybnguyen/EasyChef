@@ -210,9 +210,11 @@
      <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_TouchpadWalking.cs" />
      <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_UIPointer.cs" />
      <Compile Include="Assets\changeText.cs" />
+     <Compile Include="Assets\changeTextBack.cs" />
      <Compile Include="Assets\contactKnife.cs" />
      <Compile Include="Assets\contactLime.cs" />
      <Compile Include="Assets\contactPepper.cs" />
+     <Compile Include="Assets\contactZuc.cs" />
      <None Include="Assets\VRTK\Assets\VRTK\Version.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
