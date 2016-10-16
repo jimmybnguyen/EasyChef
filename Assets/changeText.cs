@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class contactFridge : MonoBehaviour {
+public class changeText : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
