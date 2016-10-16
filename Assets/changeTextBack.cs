@@ -3,7 +3,8 @@ using UnityEngine.UI;
 
 using System.Collections;
 
-public class changeText : MonoBehaviour {
+public class changeTextBack : MonoBehaviour
+{
     public GameObject display;
 
     TextMesh instruction;
@@ -17,20 +18,14 @@ public class changeText : MonoBehaviour {
                               "Tada~ Enjoy your healthy meal~"};
 
     // Use this for initialization
-    void Start () {
-        instruction = display.GetComponent(typeof(TextMesh)) as TextMesh;
-        Debug.Log("starting instruction: " + instruction.text);
-        instruction.text = instructions[i];
-        Debug.Log("0: " + instruction.text);
+    void Start()
+    {
     }
 
     void OnTriggerEnter(Collider col)
     {
         instruction = display.GetComponent(typeof(TextMesh)) as TextMesh;
-        i += 1;
-        Debug.Log("prev instruction: " + instruction.text);
-        Debug.Log("triggered, i = " + i);
+        i -= 1;
         instruction.text = instructions[i];
-        Debug.Log(i + ": " + instruction.text);
     }
 }
