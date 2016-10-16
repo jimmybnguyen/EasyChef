@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 32233743bc7a5ad40a066d282f81bb0f
-timeCreated: 1476630061
+guid: 5f627c52d8a37d245ae7a01fd0474914
+timeCreated: 1476637289
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -29,7 +29,6 @@ ModelImporter:
     100042: Torus
     100044: Torus_001
     100046: Torus_002
-    100048: oven_001
     400000: Cube_001
     400002: Cube_002
     400004: Cube_003
@@ -54,7 +53,6 @@ ModelImporter:
     400042: Torus
     400044: Torus_001
     400046: Torus_002
-    400048: oven_001
     2300000: Cube_001
     2300002: Cube_002
     2300004: Cube_003
@@ -78,7 +76,6 @@ ModelImporter:
     2300040: Torus
     2300042: Torus_001
     2300044: Torus_002
-    2300046: oven_001
     3300000: Cube_001
     3300002: Cube_002
     3300004: Cube_003
@@ -102,7 +99,6 @@ ModelImporter:
     3300040: Torus
     3300042: Torus_001
     3300044: Torus_002
-    3300046: oven_001
     4300000: Cylinder_009
     4300002: Cylinder_006
     4300004: knob
@@ -126,7 +122,6 @@ ModelImporter:
     4300040: knob_003
     4300042: Cube_001
     4300044: Cube_003
-    4300046: oven_001
     7400000: Default Take
     9500000: //RootNode
   materials:
