@@ -4,11 +4,10 @@ using System.Collections;
 
 [RequireComponent(typeof(SteamVR_TrackedObject))]
 
-public class contactPepper : MonoBehaviour
+public class contactLime : MonoBehaviour
 {
     SteamVR_TrackedObject trackedObj;
-    public GameObject pepperSlices;
-    public Transform food_particles;
+    public GameObject limeSlices;
 
     void Awake()
     {
@@ -24,13 +23,12 @@ public class contactPepper : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        Debug.Log("collided object: " + col.gameObject.name);
-        if (col.gameObject.name == "bellpepper")
+        if (col.gameObject.name == "lime")
         {
             Destroy(col.gameObject);
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 3; i++)
             {
-                Instantiate(pepperSlices, col.transform.position, Quaternion.identity);
+                Instantiate(limeSlices, col.transform.position, Quaternion.identity);
             }
         }
     }
