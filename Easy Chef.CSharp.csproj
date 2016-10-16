@@ -63,8 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\InteractableObject.cs" />
-    <Compile Include="Assets\Openable_Oven.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -229,7 +227,6 @@
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_TouchpadWalking.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_UIPointer.cs" />
     <Compile Include="Assets\changeText.cs" />
-    <Compile Include="Assets\contactFridge.cs" />
     <Compile Include="Assets\contactPepper.cs" />
   </ItemGroup>
   <ItemGroup>
