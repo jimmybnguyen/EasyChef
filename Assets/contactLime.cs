@@ -8,6 +8,7 @@ public class contactLime : MonoBehaviour
 {
     SteamVR_TrackedObject trackedObj;
     public GameObject limeSlices;
+    public GameObject soundfx;
 
     void Awake()
     {
@@ -25,6 +26,7 @@ public class contactLime : MonoBehaviour
     {
         if (col.gameObject.name == "lime")
         {
+            Instantiate(soundfx, col.transform.position, Quaternion.identity);
             Destroy(col.gameObject);
             for (int i = 0; i < 3; i++)
             {

@@ -9,6 +9,7 @@ public class contactPepper : MonoBehaviour
     SteamVR_TrackedObject trackedObj;
     public GameObject pepperSlices;
     public Transform food_particles;
+    public GameObject soundfx;
 
     void Awake()
     {
@@ -24,11 +25,11 @@ public class contactPepper : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        Debug.Log("collided object: " + col.gameObject.name);
         if (col.gameObject.name == "bellpepper")
         {
+            Instantiate(soundfx, col.transform.position, Quaternion.identity);
             Destroy(col.gameObject);
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 4; i++)
             {
                 Instantiate(pepperSlices, col.transform.position, Quaternion.identity);
             }
