@@ -16,7 +16,7 @@
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
-    <UnityVersion>5.4.2f1</UnityVersion>
+    <UnityVersion>5.4.2f2</UnityVersion>
     <RootNamespace></RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
@@ -99,7 +99,6 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
-    <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Add_HeadsetCollisionFade.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Archery\Arrow.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Archery\ArrowNotch.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Archery\ArrowSpawner.cs" />
@@ -114,6 +113,8 @@
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Controller_Hand.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Controller_Menu.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\ExcludeTeleport.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\FireExtinguisher_Base.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\FireExtinguisher_Sprayer.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Gun.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Lamp.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\LightSaber.cs" />
@@ -128,12 +129,16 @@
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\PanelMenu\PanelMenuUISlider.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\RC_Car.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\RC_Car_Controller.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\RealGun.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\RealGun_SafetySwitch.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\RealGun_Slide.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Remote_Beam.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Remote_Beam_Controller.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\RendererOffOnDash.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Setup_Scene_031.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Setup_Scene_034.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\SnapDropZoneGroup_Switcher.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Sphere_Spawner.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\Sword.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Examples\Resources\Scripts\UI_Interactions.cs" />
@@ -151,6 +156,7 @@
     <Compile Include="Assets\VRTK\Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ControllerTooltips.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Prefabs\Resources\Scripts\VRTK_FramesPerSecondViewer.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Prefabs\Resources\Scripts\VRTK_ObjectTooltip.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Prefabs\Resources\Scripts\VRTK_SnapDropZone.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\SDK\SDK_Base.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\SDK\SteamVR\SDK_SteamVR.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\SDK\VRTK_SDK_Bridge.cs" />
@@ -188,6 +194,7 @@
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Helper\UnityEvents\VRTK_InteractableObject_UnityEvents.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Helper\UnityEvents\VRTK_PlayerClimb_UnityEvents.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Helper\UnityEvents\VRTK_PlayerPresence_UnityEvents.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Helper\UnityEvents\VRTK_SnapDropZone_UnityEvents.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Helper\UnityEvents\VRTK_UIPointer_UnityEvents.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Helper\Utilities.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\Helper\VRTK_EventSystemVRInput.cs" />
@@ -210,11 +217,12 @@
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_HeadsetControllerAware.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_HeadsetFade.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_HeightAdjustTeleport.cs" />
-    <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_Hip_Tracking.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_HipTracking.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_InteractGrab.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_InteractTouch.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_InteractUse.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_InteractableObject.cs" />
+    <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_MoveInPlace.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_ObjectAutoGrab.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_PlayAreaCursor.cs" />
     <Compile Include="Assets\VRTK\Assets\VRTK\Scripts\VRTK_PlayerClimb.cs" />

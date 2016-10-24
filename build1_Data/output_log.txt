@@ -1,43 +1,39 @@
 Initialize engine version: 5.4.2f1 (94e3a60ee258)
 GfxDevice: creating device client; threaded=1
-VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_InstallationCorrupt: "Installation Corrupt (101)"!
- 
-(Filename:  Line: 777)
-
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 850M (ID=0x1391)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   NVIDIA
-    VRAM:     2018 MB
+    VRAM:     8145 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.250 seconds
-Platform assembly: C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\bnguy\Documents\unity\EasyChef\build1_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
 <RI> Input initialized.
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+desktop: 2560x1440 59Hz; virtual: 2560x1440 at 0,0
 <RI> Initialized touch support.
-VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_InstallationCorrupt: "Installation Corrupt (101)"!
+OpenVR initialized!
  
-(Filename:  Line: 777)
-
-VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_InstallationCorrupt: "Installation Corrupt (101)"!
- 
-(Filename:  Line: 777)
+(Filename:  Line: 353)
 
 The referenced script on this Behaviour (Game Object 'Controller (left)') is missing!
  
 (Filename:  Line: 1656)
 
-UnloadTime: 1.246608 ms
+UnloadTime: 0.434086 ms
+Connected to lighthouse:LHR-4955E1F2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
 starting instruction: Test Text
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
@@ -50,6 +46,9 @@ and the red box to go back
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3e04 -> priority: 1 
-  Thread -> id: 52b4 -> priority: 1 
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 164c -> priority: 1 
+OpenVR Shutdown
+ 
+(Filename:  Line: 707)
+
