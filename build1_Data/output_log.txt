@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+=======
+Initialize engine version: 5.4.2f1 (94e3a60ee258)
+>>>>>>> cb1945965b799f07f6f60974db7847c30e74734f
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -14,7 +18,11 @@ Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEng
 Loading C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+<<<<<<< HEAD
 - Completed reload, in  0.043 seconds
+=======
+- Completed reload, in  0.039 seconds
+>>>>>>> cb1945965b799f07f6f60974db7847c30e74734f
 Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\iguest\Desktop\EasyChef\build1_Data\Managed\System.dll (this message is harmless)
 <RI> Initializing input.
@@ -29,7 +37,11 @@ The referenced script on this Behaviour (Game Object 'Controller (left)') is mis
  
 (Filename:  Line: 1656)
 
+<<<<<<< HEAD
 UnloadTime: 5.034974 ms
+=======
+UnloadTime: 0.434086 ms
+>>>>>>> cb1945965b799f07f6f60974db7847c30e74734f
 Connected to lighthouse:LHR-4955E1F2
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
@@ -47,7 +59,11 @@ and the red box to go back
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Setting up 1 worker threads for Enlighten.
+<<<<<<< HEAD
   Thread -> id: 16d4 -> priority: 1 
+=======
+  Thread -> id: 164c -> priority: 1 
+>>>>>>> cb1945965b799f07f6f60974db7847c30e74734f
 OpenVR Shutdown
  
 (Filename:  Line: 707)
